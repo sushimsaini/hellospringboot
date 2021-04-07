@@ -13,7 +13,7 @@ sudo yum -y install wget
 
 sudo yum  -y install java-1.8.0-openjdk
 
-sudo wget https://*users3bucketname*.s3.us-east-2.amazonaws.com/springboot/firstproject-0.0.1-SNAPSHOT.jar
+sudo wget https://*users3bucketname*.s3.*region*.amazonaws.com/springboot/firstproject-0.0.1-SNAPSHOT.jar
 
 sudo java -jar firstproject-0.0.1-SNAPSHOT.jar
 
